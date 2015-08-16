@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:versionCode="1" 
+    android:versionName="1.0" 
+    package="processing.test.manual_m0016">
+    
+    <uses-sdk android:minSdkVersion="15"/>
+    <application  
+        android:icon="@drawable/icon" 
+        android:label="Manual_M0016">
+        
+        <activity android:name=".Manual_M0016" 
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConfigurarActivity" >
+        </activity>
+    </application>
+</manifest>
